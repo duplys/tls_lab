@@ -23,3 +23,8 @@ The 'numbers' are in 1000s of bytes per second processed.
 type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
 aes-128-cbc     799256.90k  1410473.79k  1447774.12k  1471690.41k  1469541.03k  1434719.57k
 ```
+
+For some algorithms, you need to use the `-evp` option:
+```console
+/opt/openssl# openssl speed -evp aes-128-gcm
+```
