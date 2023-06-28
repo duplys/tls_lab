@@ -1,15 +1,14 @@
 ## Building the Docker image
 To build:
 ```console
-$ docker build . -t openssl_1.1.1f
+$ docker build . -t openssl310
 ```
 
 ## Running the Docker container
 To run:
 ```console
-$ docker container run --rm -it openssl_1.1.1f
+$ docker container run --rm -it openssl310
 ```
-
 ## Benchmark Algorithm Performance
 To measure the performance of an algorithm:
 ```console
